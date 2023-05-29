@@ -150,6 +150,8 @@ See [INSTALL.md](INSTALL.md)
 ## 👨‍🏫 Get Started 
 Running the following shell can start a gradio service:
 ```shell
+git clone https://github.com/facebookresearch/segment-anything
+pip install -r requirements.txt
 python -u app.py --load "HuskyVQA_cuda:0,SegmentAnything_cuda:0,ImageOCRRecognition_cuda:0" --port 3456
 ```
 
